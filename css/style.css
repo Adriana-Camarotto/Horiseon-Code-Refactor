@@ -1,11 +1,13 @@
+/* universal selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*element selectors*/
 body {
-    background-color: #d9dcd6;
+    background-color:  #d9dcd6;
 }
 
 .header {
@@ -13,6 +15,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* height adjusted*/
+    height: 100px; 
 }
 
 .header h1 {
@@ -30,6 +34,7 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    
 }
 
 .header div ul {
@@ -51,6 +56,7 @@ p {
 }
 
 .hero {
+    display: flex;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
