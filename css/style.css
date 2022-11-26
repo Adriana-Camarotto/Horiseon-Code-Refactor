@@ -7,6 +7,7 @@
 
 /*element selectors*/
 body {
+    display: flex;
     background-color:  #d9dcd6;
 }
 
@@ -62,11 +63,12 @@ p {
     font-size: 16px;
 }
 
-/* eliminate backgroun-size and background-position*/
+/* eliminate background-size and background-position*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    
     
 }
 
@@ -76,13 +78,13 @@ p {
 }
 
 .float-right {
-    float: right;
+    float: left;
     margin-left: 25px;
 }
 
 .content {
     width: 75%;
-    display: inline-block;
+    display: block;
     margin-left: 20px;
 }
 
@@ -191,7 +193,8 @@ p {
     font-size: 36px;
 }
 
-.footer {
+.footer { /*add display:block*/
+    display: block;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -199,5 +202,6 @@ p {
 }
 
 .footer h2 {
+    width: 100%; /*add width*/
     font-size: 20px;
 }
