@@ -26,7 +26,7 @@
     <header class="header"> <!--changed div to header-->
         <!--The <h1> to <h6> tags are used to define HTML headings.-->
         <!--A <span> element which is used to color a part of a text-->
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span id="seo">seo</span>n</h1>
 
             <nav> <!-- Semantic tag nav aplied to setup a navigation bar-->
                 <!-- The <ul> tag defines an unordered (bulleted) list. -->
@@ -43,13 +43,13 @@
     </reader>
 
     <!-- The HTML <img> tag is used to embed an image in a web page.-->
-    <img src="images/digital-marketing-meeting.jpg" class="hero" alt="marketing team meeting"> <!--semantic tag img and alt aplied-->
+    <img src="images/digital-marketing-meeting.jpg" id="hero" alt="marketing team meeting"> <!--semantic tag img and alt aplied-->
 
     <!--The <main> tag specifies the main content of a document.-->    
     <main class="content">
         <!--The <section> tag defines a section in a document-->
         <!-- semantic tag section aplied -->    
-        <section class="search-engine-optimization">
+        <section id="search-engine-optimization"> <!--changed class atribute for id atribute-->
             <img src="./images/search-engine-optimization.jpg" class="float-left" alt="image about search engine ptimization. laptop, cup of coffee, some pensils,magnifying glass, and a notebook.">
             <h2>Search Engine Optimization</h2>
             <!--This is a paragraph-->
@@ -58,7 +58,7 @@
             </p>
         </section>
 
-        <section id="online-reputation-management" class="online-reputation-management"> <!-- semantic section aplied -->
+        <section id="online-reputation-management"> <!-- semantic section aplied delete class atribut-->
             <img src="./images/online-reputation-management.jpg" class="float-right" alt="image about a man workin in a laptop showing displaing graphics about reputation management">
             <h2>Online Reputation Management</h2>
             <p>
@@ -66,7 +66,7 @@
             </p>
         </section>
 
-        <section id="social-media-marketing" class="social-media-marketing"> <!-- semantic section aplied -->
+        <section id="social-media-marketing"> <!-- semantic section aplied delete class atribut-->
             <img src="./images/social-media-marketing.jpg" class="float-left" alt="image about a social media team marketing in a table">
             <h2>Social Media Marketing</h2>
             <p>
@@ -76,7 +76,7 @@
     </main>
     <!--The <aside> content is often placed as a sidebar in a document.-->
     <aside class="benefits"> <!--semantic aside aplied -->
-        <section class="benefit-lead"> <!-- semantic section aplied -->
+        <section id="benefit-lead"> <!-- semantic section aplied -->
             <h3>Lead Generation</h3>
             <img src="./images/lead-generation.png" alt="lead generation">
             <p>
@@ -84,7 +84,7 @@
             </p>
         </section>
 
-        <section class="benefit-brand"> <!-- semantic section aplied -->
+        <section id="benefit-brand"> <!-- semantic section aplied -->
             <h3>Brand Awareness</h3>
             <img src="./images/brand-awareness.png" alt="brand awareness">
             <p>
@@ -92,7 +92,7 @@
             </p>
         </section>
 
-        <section class="benefit-cost"> <!-- semantic section aplied -->
+        <section id="benefit-cost"> <!-- semantic section aplied -->
             <h3>Cost Management</h3>
             <img src="./images/cost-management.png" alt="cost management"> 
             <p>
@@ -102,7 +102,7 @@
     </aside>
     
     <!--The <footer> tag defines a footer for a document or section.-->
-    <footer class="footer"> <!-- semantic tag footer aplied-->
+    <footer> <!-- semantic tag footer aplied, eliminated class atribute-->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
