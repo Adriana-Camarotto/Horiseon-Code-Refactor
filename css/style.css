@@ -65,7 +65,8 @@ p {
 
 /* eliminate background-size and background-position*/
 #hero {
-    height: 1024px;
+    /* image adjusts to the screen size*/
+    height: auto;
     width: 100%;
     margin-bottom: 25px;
  
