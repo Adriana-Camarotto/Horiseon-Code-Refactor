@@ -71,19 +71,16 @@ picture {
     display: box;
 }
 
-/* eliminate background-size and background-position*/
 .hero  {
     /* image adjusts to the screen size*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    
 }  
   
-
+/* positining the imagens on the main area*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -94,6 +91,7 @@ picture {
     margin-left: 25px;
 }
 
+/* set up the style for the class=content*/
 .content {
     width: 75%;
     display: inline-block;
@@ -101,6 +99,7 @@ picture {
         
 }
 
+/*set up the style for aside element*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,6 +112,7 @@ picture {
     
 }
 
+/* define margins and colors for the aside titles and paragraphs.*/
 /*cleaned the code*/
 #benefit-lead,
 #benefit-brand,
@@ -121,6 +121,7 @@ picture {
     color: #ffffff;
     }
 
+/*define margin and align for the paragraphs*/
 /*cleaned the code*/
 #benefit-lead h3,
 #benefit-brand h3,
@@ -129,6 +130,7 @@ picture {
     text-align: center;
 }
 
+/*define style for the aside imagems*/
 /*cleaned the code*/
 #benefit-lead img,
 #benefit-brand img,
@@ -138,6 +140,7 @@ picture {
     max-width: 120px;
 }
 
+/*define style for the content area*/
 /*cleaned the code*/
 #search-engine-optimization,
 #online-reputation-management,

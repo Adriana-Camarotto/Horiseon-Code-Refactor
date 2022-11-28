@@ -6,10 +6,10 @@ What did you learn? What makes your project stand out?
 
 This was my first assingment front end project. I have learned the basics of HTML, CSS,
 
-![preview](./Assets/screencapture-horiseon-webpage.png)
+![preview](./Assets/Web-Oriseon_adriana-camarotto.github.io.jpeg)
 
 ## Link to the deployed application here.
-[Click here to acsess:](https://adriana-camarotto.github.io/*****************)
+[Click here to acsess:]( https://adriana-camarotto.github.io/horiseon-code-refactor-1/)
 
 
 ## 🚀 tecnologies
