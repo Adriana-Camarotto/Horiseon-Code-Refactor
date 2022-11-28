@@ -1,12 +1,5 @@
 # Horiseon Code Refactor
 
-* [Link](#installation)
-* [technologies](## 🚀 tecnologies)
-* [What Have I learned](## 📚What have I learned.)
-* [License](##license)
-* [contact](##contact)
-
-
 This is a code refactor for Horiseon webpage.
 It was proposed from the Front End Web Development Bootcamp from edX.
 This was an On-the-job ticket challenge and was provided me a starter code to refactor it (recall that to refactor code is to improve it without changing what it does) to complete the challenge.
