@@ -1,10 +1,14 @@
 # horiseon-code-refactor-1
 
-hat, why, and how
-What was your motivation? Why did you build this project?
-What did you learn? What makes your project stand out? 
+This is a code refactor for Horiseon webpage.
+It was proposed from the Front End Web Development Bootcamp from edX.
+This was an On-the-job ticket challenge and was provided me a starter code to refactor it (recall that to refactor code is to improve it without changing what it does) to complete the challenge.
 
-This was my first assingment front end project. I have learned the basics of HTML, CSS,
+I really liked this challenge because it made me learn a lot about hosting service for software development and version control using Git and Github. I also had the oportunity to aply all the CSS and HTML concepts that were learned during the first week of bootcamp.
+
+This is not a responsive webpage, so I am very exited to the next week on the bootcamp to learn and aply in the next projects responsive web desing.
+
+28 november 2022. 
 
 ![preview](./Assets/Web-Oriseon_adriana-camarotto.github.io.jpeg)
 
