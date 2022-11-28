@@ -1,5 +1,12 @@
 # Horiseon Code Refactor
 
+* [Link](#installation)
+* [technologies](## 🚀 tecnologies)
+* [What Have I learned](## 📚What have I learned.)
+* [License](##license)
+* [contact](##contact)
+
+
 This is a code refactor for Horiseon webpage.
 It was proposed from the Front End Web Development Bootcamp from edX.
 This was an On-the-job ticket challenge and was provided me a starter code to refactor it (recall that to refactor code is to improve it without changing what it does) to complete the challenge.
@@ -13,7 +20,8 @@ This is not a responsive webpage, so I am very exited to the next week on the bo
 ![preview](./Assets/Web-Oriseon_adriana-camarotto.github.io.jpeg)
 
 ## Link to the deployed application here.
-[Click here to acsess:]( https://adriana-camarotto.github.io/horiseon-code-refactor-1/)
+[Click here to acsess:]( https://adriana-camarotto.github.io/horiseon-code-refactor-1/) Horiseon webpage.
+
 
 
 ## 🚀 tecnologies
