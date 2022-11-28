@@ -29,29 +29,32 @@
         <h1>Hori<span id="seo">seo</span>n</h1>
             
             <!-- Semantic tag nav aplied to setup a navigation bar-->
-            <nav> 
-                <!-- The <ul> tag was eliminated -->                    <!--The <li> was elimineted-->
-                <!--The HTML <a> tag defines a hyperlink.-->
-                <a href="#search-engine-optimization">Search Engine Optimization</a>
-                                
-                <a href="#online-reputation-management">Online Reputation Management</a>
-                                
-                <a href="#social-media-marketing">Social Media Marketing</a>
-                
-            </nav>
+        <nav> 
+            <!-- The <ul> tag was eliminated -->                    <!--The <li> was elimineted-->
+            <!--The HTML <a> tag defines a hyperlink.-->
+            <ul class="nav_links" >
+                <li><a href="#search-engine-optimization">Optimization</a></li>
+                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                <li><a href="#social-media-marketing">Social Media Marketing</a></li>                  
+            </ul>
+        </nav>
     </reader>
 
     <!-- The HTML <img> tag is used to embed an image in a web page.-->
-
-    <img src="./images/digital-marketing-meeting.jpg"  id="hero" alt="marketing team meeting"> <!--semantic tag img and alt aplied-->
+    <picture>
+        <img class="hero" src="./images/digital-marketing-meeting.jpg"   
+                      alt="marketing team meeting"> <!--semantic tag img and alt aplied-->
+    </picture>
+    
     
     <!--The <main> tag specifies the main content of a document.-->    
     <main class="content">
         <!--The <section> tag defines a section in a document-->
         <!-- semantic tag section aplied -->    
         <section id="search-engine-optimization"> <!--changed class atribute for id atribute-->
-            <img src="./images/search-engine-optimization.jpg" class="float-left" alt="image about search engine ptimization. laptop, cup of coffee, some pensils,magnifying glass, and a notebook.">
-            <h2>Search Engine Optimization</h2>
+            <img  class="float-left" src="./images/search-engine-optimization.jpg" 
+                                     alt="image about search engine ptimization. laptop, cup of coffee, some pensils,magnifying glass, and a notebook.">
+            <h2>Search Engine Optimization - SEO</h2>
             <!--This is a paragraph-->
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -59,7 +62,8 @@
         </section>
 
         <section id="online-reputation-management"> <!-- semantic section aplied delete class atribut-->
-            <img src="./images/online-reputation-management.jpg" class="float-right" alt="image about a man workin in a laptop showing displaing graphics about reputation management">
+            <img class="float-right" src="./images/online-reputation-management.jpg" 
+                                     alt="image about a man workin in a laptop showing displaing graphics about reputation management">
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -67,7 +71,8 @@
         </section>
 
         <section id="social-media-marketing"> <!-- semantic section aplied delete class atribut-->
-            <img src="./images/social-media-marketing.jpg" class="float-left" alt="image about a social media team marketing in a table">
+            <img class="float-left" src="./images/social-media-marketing.jpg" 
+                                    alt="image about a social media team marketing in a table">
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
