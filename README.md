@@ -1,4 +1,4 @@
-# horiseon-code-refactor-1
+# Horiseon Code Refactor
 
 This is a code refactor for Horiseon webpage.
 It was proposed from the Front End Web Development Bootcamp from edX.
