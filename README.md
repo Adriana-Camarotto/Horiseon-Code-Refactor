@@ -19,11 +19,9 @@ This is not a responsive webpage, so I am very exited to the next week on the bo
 
 ![preview](./Assets/Web-Oriseon_adriana-camarotto.github.io.jpeg)
 
-## Link to the deployed application here.
-[Click here to acsess:]( https://adriana-camarotto.github.io/horiseon-code-refactor-1/) Horiseon webpage.
-
-
-
+## Link to Horiseon webpage
+[Click here to acsess](https://adriana-camarotto.github.io/Horiseon-Code-Refactor/)
+ 
 ## 🚀 tecnologies
 
 - HTML
